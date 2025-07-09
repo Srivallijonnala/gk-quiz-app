@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #3a6186, #89253e);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background-color: #1e1e2f;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#question-count {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+#question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-grid {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-grid .btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-grid .btn:hover {
+  background-color: #0056b3;
+}
+
+#feedback {
+  font-size: 14px;
+  margin-bottom: 10px;
+  height: 20px; /* keeps height consistent even when empty */
+}
+
+.nav-btn {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.nav-btn:hover {
+  background-color: #218838;
+}
+
+#restart-btn {
+  display: none;
+  background-color: #ffc107;
+  color: black;
+}
+
+#restart-btn:hover {
+  background-color: #e0a800;
+}
